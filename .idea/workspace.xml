@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="STM32" targetName="STM32.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-MinGW STM" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW STM" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d95791ed-beee-466c-ab95-44749faedd40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_STM32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/iwdg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/can.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/iwdg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f407ighx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smartcard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407IGHX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407IGHX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/cache-v2-273e2b88e6f1f72b4f33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/cmakeFiles-v1-847655defc8803a5dec1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/codemodel-v2-89d59a874b2953d58f2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/index-2023-12-16T17-27-51-0173.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/target-STM32.elf-Debug-acc75922a9244a48574e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.cmake/api/v1/reply/toolchains-v1-40c10608f6cd89eeac16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/can.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/iwdg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/STM32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/clion-Debug-MinGW STM-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/STM32.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/STM32.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/STM32.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/STM32.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm/cmake_install.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW STM" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZNikBXW2pcXYiC3Tv4C5OZMpfu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD Download &amp; Run.OCD STM32.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/32805/CLionProjects/STM32&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD STM32">
+    <configuration name="STM32.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32" TARGET_NAME="STM32.elf" CONFIG_NAME="Debug-MinGW STM" RUN_TARGET_PROJECT_NAME="STM32" RUN_TARGET_NAME="STM32.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.STM32.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD STM32" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d95791ed-beee-466c-ab95-44749faedd40" name="Changes" comment="" />
+      <created>1702269077494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702269077494</updated>
+      <workItem from="1702269084360" duration="25000" />
+      <workItem from="1702269117962" duration="103000" />
+      <workItem from="1702269257380" duration="2179000" />
+      <workItem from="1702566009198" duration="1426000" />
+      <workItem from="1702611936075" duration="608000" />
+      <workItem from="1702727972731" duration="4192000" />
+      <workItem from="1702737234308" duration="535000" />
+      <workItem from="1702737777345" duration="22000" />
+      <workItem from="1702737877742" duration="1746000" />
+      <workItem from="1702744294499" duration="88000" />
+      <workItem from="1702745635595" duration="1873000" />
+      <workItem from="1702747527560" duration="493000" />
+      <workItem from="1702785070242" duration="798000" />
+      <workItem from="1702807397148" duration="1010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
