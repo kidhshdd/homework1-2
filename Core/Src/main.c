@@ -20,11 +20,13 @@
 #include "main.h"
 #include "adc.h"
 #include "can.h"
+#include "dma.h"
 #include "iwdg.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-
+#include "string.h"
+#include "remote_control.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -90,6 +92,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_ADC3_Init();
   MX_CAN1_Init();
   MX_CAN2_Init();
@@ -104,6 +107,7 @@ int main(void)
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
     canFilterInit();
+    HAL_UART_Receive_IT(&huart3,buffer,18);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -165,6 +169,15 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart == &huart3) {
+			  HAL_IWDG_Refresh(&hiwdg);
+        memcpy(data, buffer,sizeof(buffer));
+        RemoteDataProcess(data);
+        HAL_UART_Receive_IT(&huart3,buffer,18);
+    }
+}
 /* USER CODE END 4 */
 
 /**
