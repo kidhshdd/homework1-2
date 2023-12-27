@@ -2,7 +2,8 @@
 // Created by 32805 on 2023/12/24.
 //
 #include "remote_control.h"
-
+#include "iwdg.h"
+#include "string.h"
 RC_Ctl_t RC_CtrlData;
 fd fbdata;
 uint8_t data[18];
@@ -29,10 +30,20 @@ void RemoteDataProcess(uint8_t *pData) {
     RC_CtrlData.mouse.press_l = pData[12];
     RC_CtrlData.mouse.press_r = pData[13];
     RC_CtrlData.key.v = ((int16_t) pData[14]);// | ((int16_t)pData[15] << 8);
-    fbdata.ch0=(RC_CtrlData.rc.ch0-1024)/660.0f;
-    fbdata.ch1=(RC_CtrlData.rc.ch1-1024)/660.0f;
-    fbdata.ch2=(RC_CtrlData.rc.ch2-1024)/660.0f;
-    fbdata.ch3=(RC_CtrlData.rc.ch3-1024)/660.0f;
+    fbdata.ch0=(float)(RC_CtrlData.rc.ch0-1024)/660.0f;
+    fbdata.ch1=(float)(RC_CtrlData.rc.ch1-1024)/660.0f;
+    fbdata.ch2=(float)(RC_CtrlData.rc.ch2-1024)/660.0f;
+    fbdata.ch3=(float)(RC_CtrlData.rc.ch3-1024)/660.0f;
     fbdata.s1=RC_CtrlData.rc.s1;
     fbdata.s2=RC_CtrlData.rc.s2;
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart == &huart3) {
+        HAL_IWDG_Refresh(&hiwdg);
+        memcpy(data, buffer,sizeof(buffer));
+        RemoteDataProcess(data);
+        HAL_UART_Receive_IT(&huart3,buffer,18);
+    }
 }

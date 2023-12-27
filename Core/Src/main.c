@@ -96,7 +96,7 @@ int main(void)
   MX_ADC3_Init();
   MX_CAN1_Init();
   MX_CAN2_Init();
-  MX_IWDG_Init();
+  //MX_IWDG_Init();
   MX_TIM3_Init();
   MX_TIM4_Init();
   MX_TIM5_Init();
@@ -169,15 +169,7 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
-{
-    if (huart == &huart3) {
-			  HAL_IWDG_Refresh(&hiwdg);
-        memcpy(data, buffer,sizeof(buffer));
-        RemoteDataProcess(data);
-        HAL_UART_Receive_IT(&huart3,buffer,18);
-    }
-}
+
 /* USER CODE END 4 */
 
 /**

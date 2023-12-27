@@ -20,33 +20,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d95791ed-beee-466c-ab95-44749faedd40" name="Changes" comment="homework1 correct1">
-      <change afterPath="$PROJECT_DIR$/Core/Inc/remote_control.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/remote_control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_STM32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_STM32.xml" afterDir="false" />
+    <list default="true" id="d95791ed-beee-466c-ab95-44749faedd40" name="Changes" comment="feat:remote_control">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/motor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/motor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/can.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/can.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-3fb56996c664855da449.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2023-12-18T15-13-43-0153.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2023-12-18T15-22-05-0960.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-STM32.elf-Debug-795bc6380a65aeccd915.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/remote_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/remote_control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cache-v2-9ba06436168a9b442da4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cmakeFiles-v1-d728417c9178af1e53db.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/STM32.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,26 +76,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OpenOCD Download & Run.OCD STM32.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/32805/CLionProjects/STM32",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD Download &amp; Run.OCD STM32.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/32805/CLionProjects/STM32&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD STM32">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -134,7 +136,10 @@
       <workItem from="1702807397148" duration="2551000" />
       <workItem from="1702911948957" duration="473000" />
       <workItem from="1703069625473" duration="1000" />
-      <workItem from="1703403332020" duration="12440000" />
+      <workItem from="1703403332020" duration="12799000" />
+      <workItem from="1703598583630" duration="5828000" />
+      <workItem from="1703605477663" duration="350000" />
+      <workItem from="1703659027880" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <option name="closed" value="true" />
@@ -152,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702912985040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:remote_control">
+      <option name="closed" value="true" />
+      <created>1703432575678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703432575678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +202,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0" />
     <MESSAGE value="homework1 correct1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework1 correct1" />
+    <MESSAGE value="feat:remote_control" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:remote_control" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
